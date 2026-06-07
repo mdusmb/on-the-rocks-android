@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.data
+package com.clapped.ontherocks.data
 
 object CocktailCatalog {
     fun cocktails(category: DiscoverCategory): List<Cocktail> = when (category) {

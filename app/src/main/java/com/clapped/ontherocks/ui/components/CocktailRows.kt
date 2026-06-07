@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.ui.components
+package com.clapped.ontherocks.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -17,11 +17,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mdu.ontherocks.data.Cocktail
-import com.mdu.ontherocks.ui.theme.AppGold
-import com.mdu.ontherocks.ui.theme.AppMuted
-import com.mdu.ontherocks.ui.theme.AppSurface
-import com.mdu.ontherocks.ui.theme.AppText
+import com.clapped.ontherocks.data.Cocktail
+import com.clapped.ontherocks.ui.theme.AppGold
+import com.clapped.ontherocks.ui.theme.AppMuted
+import com.clapped.ontherocks.ui.theme.AppSurface
+import com.clapped.ontherocks.ui.theme.AppText
 
 @Composable
 fun CocktailListRow(cocktail: Cocktail, modifier: Modifier = Modifier) {

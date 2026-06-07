@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mdu.ontherocks"
+    namespace = "com.clapped.ontherocks"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.mdu.ontherocks"
+        applicationId = "com.clapped.ontherocks"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

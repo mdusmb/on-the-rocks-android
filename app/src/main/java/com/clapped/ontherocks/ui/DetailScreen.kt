@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.ui
+package com.clapped.ontherocks.ui
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.Canvas
@@ -31,16 +31,16 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mdu.ontherocks.data.Cocktail
-import com.mdu.ontherocks.data.IngredientLine
-import com.mdu.ontherocks.ui.components.CocktailGlass
-import com.mdu.ontherocks.ui.components.ProportionsBar
-import com.mdu.ontherocks.ui.components.SectionLabel
-import com.mdu.ontherocks.ui.theme.AppBackground
-import com.mdu.ontherocks.ui.theme.AppGold
-import com.mdu.ontherocks.ui.theme.AppMuted
-import com.mdu.ontherocks.ui.theme.AppSurface
-import com.mdu.ontherocks.ui.theme.AppText
+import com.clapped.ontherocks.data.Cocktail
+import com.clapped.ontherocks.data.IngredientLine
+import com.clapped.ontherocks.ui.components.CocktailGlass
+import com.clapped.ontherocks.ui.components.ProportionsBar
+import com.clapped.ontherocks.ui.components.SectionLabel
+import com.clapped.ontherocks.ui.theme.AppBackground
+import com.clapped.ontherocks.ui.theme.AppGold
+import com.clapped.ontherocks.ui.theme.AppMuted
+import com.clapped.ontherocks.ui.theme.AppSurface
+import com.clapped.ontherocks.ui.theme.AppText
 
 @Composable
 fun DetailScreen(

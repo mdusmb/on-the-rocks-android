@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.data
+package com.clapped.ontherocks.data
 
 import java.util.UUID
 import androidx.compose.ui.graphics.Color

@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.ui
+package com.clapped.ontherocks.ui
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -18,10 +18,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import com.mdu.ontherocks.data.Cocktail
-import com.mdu.ontherocks.data.DiscoverCategory
-import com.mdu.ontherocks.ui.theme.AppBackground
-import com.mdu.ontherocks.ui.theme.AppLightMode
+import com.clapped.ontherocks.data.Cocktail
+import com.clapped.ontherocks.data.DiscoverCategory
+import com.clapped.ontherocks.ui.theme.AppBackground
+import com.clapped.ontherocks.ui.theme.AppLightMode
 
 enum class AppTab(val title: String, val icon: String) {
     DISCOVER("Menu", "◎"),

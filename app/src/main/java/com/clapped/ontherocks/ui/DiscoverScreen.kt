@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.ui
+package com.clapped.ontherocks.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
@@ -31,17 +31,17 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.mdu.ontherocks.data.Cocktail
-import com.mdu.ontherocks.data.CocktailCatalog
-import com.mdu.ontherocks.data.DiscoverCategory
-import com.mdu.ontherocks.ui.components.CategoryChip
-import com.mdu.ontherocks.ui.components.CocktailListRow
-import com.mdu.ontherocks.ui.components.HeaderBlock
-import com.mdu.ontherocks.ui.components.SearchField
-import com.mdu.ontherocks.ui.components.SectionLabel
-import com.mdu.ontherocks.ui.theme.AppMuted
-import com.mdu.ontherocks.ui.theme.AppSurface
-import com.mdu.ontherocks.ui.theme.AppGold
+import com.clapped.ontherocks.data.Cocktail
+import com.clapped.ontherocks.data.CocktailCatalog
+import com.clapped.ontherocks.data.DiscoverCategory
+import com.clapped.ontherocks.ui.components.CategoryChip
+import com.clapped.ontherocks.ui.components.CocktailListRow
+import com.clapped.ontherocks.ui.components.HeaderBlock
+import com.clapped.ontherocks.ui.components.SearchField
+import com.clapped.ontherocks.ui.components.SectionLabel
+import com.clapped.ontherocks.ui.theme.AppMuted
+import com.clapped.ontherocks.ui.theme.AppSurface
+import com.clapped.ontherocks.ui.theme.AppGold
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.ui.theme
+package com.clapped.ontherocks.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.lightColorScheme

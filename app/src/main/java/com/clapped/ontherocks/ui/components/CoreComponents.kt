@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.ui.components
+package com.clapped.ontherocks.ui.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -34,12 +34,12 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
-import com.mdu.ontherocks.ui.AppTab
-import com.mdu.ontherocks.ui.theme.AppActiveSurface
-import com.mdu.ontherocks.ui.theme.AppGold
-import com.mdu.ontherocks.ui.theme.AppMuted
-import com.mdu.ontherocks.ui.theme.AppSurface
-import com.mdu.ontherocks.ui.theme.AppText
+import com.clapped.ontherocks.ui.AppTab
+import com.clapped.ontherocks.ui.theme.AppActiveSurface
+import com.clapped.ontherocks.ui.theme.AppGold
+import com.clapped.ontherocks.ui.theme.AppMuted
+import com.clapped.ontherocks.ui.theme.AppSurface
+import com.clapped.ontherocks.ui.theme.AppText
 
 @Composable
 fun HeaderBlock(eyebrow: String, title: String, modifier: Modifier = Modifier) {

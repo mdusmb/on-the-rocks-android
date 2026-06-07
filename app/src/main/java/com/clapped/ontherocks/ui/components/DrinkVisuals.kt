@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.ui.components
+package com.clapped.ontherocks.ui.components
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween
@@ -18,9 +18,9 @@ import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.clipPath
 import androidx.compose.ui.unit.dp
-import com.mdu.ontherocks.data.Cocktail
-import com.mdu.ontherocks.data.CocktailProportion
-import com.mdu.ontherocks.data.GlassStyle
+import com.clapped.ontherocks.data.Cocktail
+import com.clapped.ontherocks.data.CocktailProportion
+import com.clapped.ontherocks.data.GlassStyle
 import kotlin.math.PI
 import kotlin.math.max
 import kotlin.math.pow

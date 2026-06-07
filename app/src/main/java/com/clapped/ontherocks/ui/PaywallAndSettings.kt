@@ -1,4 +1,4 @@
-package com.mdu.ontherocks.ui
+package com.clapped.ontherocks.ui
 
 import android.app.Activity
 import android.content.Context
@@ -37,13 +37,13 @@ import com.android.billingclient.api.BillingFlowParams
 import com.android.billingclient.api.BillingResult
 import com.android.billingclient.api.QueryProductDetailsParams
 import com.android.billingclient.api.PurchasesUpdatedListener
-import com.mdu.ontherocks.ui.components.HeaderBlock
-import com.mdu.ontherocks.ui.components.SectionLabel
-import com.mdu.ontherocks.ui.theme.AppBackground
-import com.mdu.ontherocks.ui.theme.AppGold
-import com.mdu.ontherocks.ui.theme.AppMuted
-import com.mdu.ontherocks.ui.theme.AppSurface
-import com.mdu.ontherocks.ui.theme.AppText
+import com.clapped.ontherocks.ui.components.HeaderBlock
+import com.clapped.ontherocks.ui.components.SectionLabel
+import com.clapped.ontherocks.ui.theme.AppBackground
+import com.clapped.ontherocks.ui.theme.AppGold
+import com.clapped.ontherocks.ui.theme.AppMuted
+import com.clapped.ontherocks.ui.theme.AppSurface
+import com.clapped.ontherocks.ui.theme.AppText
 
 @Composable
 fun UpgradeSheet(onDismiss: () -> Unit, onPurchase: () -> Unit) {
